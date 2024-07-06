@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Wittgenstein;
+}
+.container {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #19181c;
+    color: white;
+    width: auto;
+    height: 300px;
+    border-radius: 30px;
+}
+.sub-container {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.container > div {
+    height: 40%; 
+}
+.list {
+    display: flex;
+    gap: 20px;
+}
+.your {
+    font-weight: bold;
+}
+.inline {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+img {
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+}
+#avatarone {
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+    margin-right: 35px;
+    margin-bottom: 0;
+    height: 75px;
+    width: 75px;
+}
+#avatartwo {
+    height: 80px;
+    width: 77px;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;;
+}
+.avatar-container {
+    position: relative;
+    display: inline-block;
+}
+#avatarthree {
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+    float: right;
+    display: block;
+}
+#twenty {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding: 5px;
+}
+#no {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#download {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px green;
+}
+.try {
+    padding: 10px;
+    color: white;
+    background-color: #19181c;
+    border-radius: 10px; 
+    cursor: pointer;
+    box-shadow: 2px 2px 5px white;
+}
+.footer {
+    display: flex;
+    margin: 35px;
+    flex-flow: row-wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.comm {
+    margin-top: 100px;
+    display: flex;
+}
+.media {
+    height: 40px;
+}
+.sub-header-one {
+    font-weight: bold;
+    font-size: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+.date {
+    margin-top: 100px;
+}
